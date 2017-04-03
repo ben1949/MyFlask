@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+    <h1>Header hello Nokia</h1>
+</div>
+<!--
+<h2>{{ get_flashed_messages()[0] }}</h2>
+-->
+<form action="/login" method="post">
+    <input type = "text" name = "username">
+
+    <input type = "text" name = "password">
+
+    <input type = "submit" value="login">
+
+</form>
+    {{ get_flashed_messages()[0] }}
+<div>
+    <h1>Footer Nokia</h1>
+</div>
+
+</body>
+</html>
